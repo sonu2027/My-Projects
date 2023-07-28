@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 2px black;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+}
+.navbar #navbarKaA{
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right: 25rem;
+    margin-top: 1rem;
+}
+.navbar ul li {
+    list-style: none;
+    font-size: 2rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(32, 46, 90);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 30rem;
+    height: 5rem;
+    margin-right : 20rem;
+}
+.main{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.main img{
+    height: 30rem;
+    width: 50rem;
+    border-radius: 2px;
+}
+.main p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+.main h1{
+    font-size: 3.5rem;
+}
+.card{
+    display: flex;
+    column-gap: 5rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    box-shadow: 0 0 4px black;
+}
+.footer p{
+    font-size: 1.5rem;
+    font-weight: 1000px;
+}  
+
+@media screen and (min-width:200px) and (max-width: 480px){
+    html{
+        font-size: 40%;
+    }
+    .navbar #navbarKaA{
+        text-decoration: none;
+        font-size: 2.3rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+        width: 25rem;
+        height: 5rem;
+        margin-right : 0rem;
+    }
+    .main img{
+        margin-top: 0rem;
+        height: 21rem;
+        width: 25rem;
+        border-radius: 2px;
+    }
+    .main{
+        margin: 3rem 2rem 0 2rem;
+    }
+    .footer{
+        margin-right: 0rem;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+        margin-left: 6rem;
+    }
+    .card iframe{
+        height: 20rem;
+        width: 43rem;
+    }
+}

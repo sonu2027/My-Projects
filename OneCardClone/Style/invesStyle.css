@@ -1,0 +1,38 @@
+#invesimg img{
+    height: auto;
+    width: 25%;
+}
+#invesimg{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    overflow: hidden;
+}
+#investors{
+    padding: 5rem 0;
+}
+#investors h1{
+    font-size: 3.6rem;
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+#investors p{
+    font-size: 1.5rem;
+    color: rgb(99, 99, 99);
+    text-align: center;
+}
+
+@media screen and (max-width:767px){
+    #invesimg{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5rem;
+    }
+    #invesimg img{
+        height: auto;
+        width: 50%;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank management system</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 style="color:rgb(74, 118, 250); text-align:center; margin-top:1rem; text-decoration:underline;">Bank management system</h2>
+    <div id="container1">
+      <div id="deposit">
+        <button onclick="add()">Deposit</button>
+      </div>
+      <div id="withdraw">
+        <button onclick="subtract()">Withdraw</button>
+      </div>
+    </div>
+    <div class="container">
+      <div id="container2">
+        <label for="">Amount&nbsp;</label>
+        <input
+          type="text"
+          name=""
+          id="inputTag"
+          placeholder="Enter amount"
+          value="0"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <button onclick="submitButton()" id="submit">Submit</button>
+    </div>
+    <div class="container">
+      <button onclick="showBalance()" id="balance" value="">
+        Account Balance
+      </button>
+    </div>
+
+    <div class="container">
+      <button onclick="home()" id="home">Return Home</button>
+    </div>
+
+    <div class="container">
+      <footer>
+        <span style="font-size: 2rem">Developed &nbsp;</span>
+        <a href="https://www.linkedin.com/in/sonu-mondal-2380981a7/"
+          ><img style="width: 2rem" src="linkedinLogo.png" alt=""
+        /></a>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

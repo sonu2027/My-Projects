@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental Cost</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="rs">
+        <label for="">Enter number of days you want to rent a car:&nbsp;</label>
+        <input type="text" placeholder="Enter days in number" />
+      </div>
+      <h2>Please select a car</h2>
+      <div id="button">
+        <button onclick="economy()">
+          Economy <br />
+          Cost: 4000 Rs
+        </button>
+        <button onclick="midsize()">
+          Midsize <br />
+          Cost: 10000 Rs
+        </button>
+        <button onclick="luxury()">
+          Luxury <br />
+          Cost: 20000 Rs
+        </button>
+      </div>
+      <div id="para">
+        <p>Total cost:&nbsp;<span>0</span>&nbsp;Rs</p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

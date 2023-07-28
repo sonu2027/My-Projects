@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} 
+#menu{
+    display: none;
+}
+body{
+    color: #2c2c2c;
+    /* This 100vw width will cause problem */
+    /* width: 100vw; */
+    overflow-x:hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    height: 4.5rem;
+}
+a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+li{
+    list-style: none;
+    font-weight: 550;
+}
+ul{
+    display: flex;
+    column-gap: 2.5rem;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    column-gap: 2.5rem;
+}
+button{
+    padding: 0.25rem 0.5rem;
+    background: #1893f7;
+    border:1px solid  #007bff;
+    border-radius: 0.2rem;
+    line-height: 1.5rem;
+}
+button a{
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+img{
+    height: 40px;
+    width: 69px;
+}
+
+@media screen and (max-width:991px){
+    .navbar ul{
+        display: none;
+    }
+    html{
+        font-size: 80%;
+    }
+    #menu{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        column-gap: 19rem;
+    }
+}
+@media screen and (max-width:767px){
+    html{
+        font-size: 75%;
+    }
+    .header{
+        column-gap: 1rem;
+    }
+    #menuItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 3rem;
+        font-size: 1.3rem;
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        padding: 2rem 0;
+    }
+}

@@ -1,0 +1,38 @@
+.container3 .left-side-container video{
+    width: 35vw;
+    height: 100%;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 3rem;
+}
+.container3 .right-side-container #phone{
+    font-weight: 550;
+    color: #000;
+    line-height: 1.19;
+    font-size: 4rem;
+}
+.container3 .right-side-container p{
+    font-size: 1.5rem;
+    color: #2c2c2c;
+}
+.container3 .right-side-container img{
+    width: 4rem;
+    height: 8rem;
+}
+.container3 .right-side-container{
+    text-align: right;
+}
+
+@media screen and (max-width:767px){
+    .container3 .left-side-container video{
+        width: 60vw;
+        height: 100%;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+    }
+}

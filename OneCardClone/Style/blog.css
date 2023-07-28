@@ -1,0 +1,108 @@
+#blog #creditcard .img img{
+    height: 60%;
+    width: 90%;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 1rem;
+}
+#creditcard{
+    display: flex;
+    width: 80%;
+    /* height: 45vh; */
+    margin-left: 12%;
+}
+#blog #creditcard .para{
+    text-align: left;
+    position: relative;
+    left: 1rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: rgb(99, 99, 99);
+}
+#blog #creditcard .date{
+    text-align: left;
+    position: relative;
+    left: 1rem;
+}
+#blog h1{
+    text-align: center;
+    font-size: 3.8rem;
+}
+#blog h1 span{
+    color: rgba(0,147,247,1);
+}
+#blog p{
+    position: relative;
+    left: 11rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: rgb(7, 7, 7);
+    z-index: -1;
+    width: 50%;
+}
+#blog #blogkabutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blog button{
+    /* position: relative;
+    left: 43%; */
+    width: 8rem;
+    height: 6vh;
+    border-radius: 0.8rem;
+    z-index: -1;
+    margin-top: 3rem;
+}
+#blog button a{
+    font-size: 1rem;
+}
+#blog{
+    margin:5rem 0 9rem 0;
+} 
+#banking{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 5rem 0;
+}
+#banking h1{
+    font-size: 3.8rem;
+    color: rgb(6, 6, 6);
+}
+#banking p{
+    font-size: 1.4rem;
+    color: rgb(99, 99, 99);
+}
+#banking #bankkaimage{
+    height: auto;
+    width: 80%;
+}
+
+@media screen and (max-width:767px){
+    #blog{
+        width: 100%;
+        overflow-x:hidden;
+    }
+    #banking{
+        width: 100%;
+    }
+    #creditcard{
+        flex-direction: column;
+        /* height: 170vh; */
+        /* margin-left: 26%; */
+        width: 100%;
+        row-gap: 4rem;
+    }
+    #blog #creditcard .img img{
+        height: 75%;
+        width: 70%;
+    }
+    #blog p{
+        margin-left: 5.5rem;
+    }
+    #blog #creditcard .para{
+        left: -3rem;
+    }
+    #blog #creditcard .date{
+        left: -3rem;
+    }
+}

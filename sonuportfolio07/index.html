@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sonu Mondal</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./coding.css">
+    <!-- Popin font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,ght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/fd689afc01.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="portfolio">
+            <div class="port"><h1>Port</h1></div>
+            <div class="folio"><h1>folio</h1></div>
+        </div>
+        <ul>
+            <li onclick="jump()">Home</li>
+            <li onclick="showproject() , empty()">Projects</li>
+            <li onclick="showcodingprofile(), empty()">Coding profile</li>
+            <li><a id="resumes" style="text-decoration: none; color:#fff;" href="./assets/Resumeat75px.pdf">Resume</a></li>
+            <li onclick="cntf(), empty()">Contact</li>
+        </ul>
+        <div class="bar">
+            <li id="cap" onclick="showbar()"><i class="fa-solid fa-bars"></i></li>
+        </div>
+        <div id="bar2">
+            <img onclick="showbar()" src="./assets/closeicon.jpg" alt="Icon">
+        </div>
+    </nav>
+
+    <div id="hamberger">
+        <div id="hambergermenu">
+
+        </div>
+        <main id="contacts">
+            <div class="upper-main">
+                <h1>Feel free to contact us!</h1>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><p style="font-size:1.8rem">sonu.mondal.2027@gmail.com</p></a>
+            </div>
+            <div class="myimg">
+                <img src="./Contact/assets/ProfilePhoto.jpg" alt="My img">
+            </div>
+            <h2>Sonu Mondal</h2>
+            <div class="logo">
+                <a href="https://www.facebook.com/sonu.mandal.9883/"><img src="./Contact/assets/facebook.png" alt="Facebook logo"></a>
+                <a href="https://www.linkedin.com/in/sonu-mondal-2380981a7/"><img src="./Contact/assets/linkedin.png" alt="Instagram logo"></a>
+                <a href="https://www.instagram.com/so__nu2027/"><img src="./Contact/assets/instagram.png" alt="Instagram logo"></a>
+                <a href="https://twitter.com/So_nu2027"><img src="./Contact/assets/twitter.png" alt="Twitter logo"></a>
+            </div>
+        </main>
+
+
+        <main id="projectlink">
+            <div class="heading">
+                <h1>Project &nbsp;<span>list</span></h1>
+            </div>
+            <ul>
+                <!-- <li>
+                    <a style="line-height:3rem;" href="https://sonuproj01.netlify.app/">Project-01: Learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for desktop only</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj02.netlify.app/">Project-02: Learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for desktop only</p>
+                </li> -->
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj03.netlify.app/">Project-01: learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for desktop only</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj04.netlify.app/">Project-02: Learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for desktop only</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj05.netlify.app/">Project-03: Learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for desktop only</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj06.netlify.app/">Project-04: Learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for desktop only</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj07.netlify.app/">Project-05: Learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for desktop only</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj11.netlify.app/">Project-06: Learning</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for: Desktop, Mobile</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj09.netlify.app/">Project-07: Portfolio Website</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully Responsive</p></li>
+                </li> 
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj10.netlify.app/">Project-08: Ecommerce website of earphone and headphone</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for: Mobile, Desktop</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj12.netlify.app/">Project-09: Health Website</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for: Mobile, Desktop</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://codewithsonu.netlify.app/">Project-10: My youtube channel website (CodeWithSonu)</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Responsive for: Mobile, Desktop</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonusproj07.netlify.app/">Project-11: My portfolio</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavaScript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj13.netlify.app/">Project-12: Construction Website</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj16.netlify.app/">Project-13: Education Website</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuproj17.netlify.app/">Project-14: Counter App</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavaScript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://sonuresume.netlify.app/">Project-15: My Resume</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+
+                <li>
+                    <a style="line-height:3rem;" href="https://periodictablebysonu.netlify.app/">Project-16: Periodic Table</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://onecardwebsite.netlify.app/">Project-17: OneCard Clone</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavasCript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://playquizes.netlify.app/">Project-18: Quiz App</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavaScript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://todoonlinewebapp.netlify.app/">Project-19: Todo web app</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavaScript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+    
+                <li>
+                    <a style="line-height:3rem;" href="https://carrentalwebapp.netlify.app/">Project-20: Car Rental Cost</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavaScript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+
+                <li>
+                    <a style="line-height:3rem;" href="https://restaurantbillsplitter.netlify.app/">Project-21: Restaurant Bill Splitter</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavaScript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+
+                <li>
+                    <a style="line-height:3rem;" href="https://bankingsystemwebapp.netlify.app/">Project-22: Bank management system</a>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Technology used: HTML, CSS, JavaScript</p>
+                    <p style="color:rgb(174, 180, 186); font-size:2rem; line-height:3rem;">Fully responsive</p>
+                </li>
+
+               
+
+            </ul>
+        </main>
+
+        <main id="codingprofile">
+            <ul>
+                <li><a href="https://www.hackerrank.com/takeinfo2u">Hacker rank</a></li>
+                <li><a href="https://auth.geeksforgeeks.org/user/takeinfo2u/">Geeks for geeks</a></li>
+                <li><a href="https://www.codingninjas.com/codestudio/profile/433a370a-3604-4a65-b6a5-bcfe5d32fffe">Coding ninja</a></li>
+                <li><a href="https://leetcode.com/sonu2027/">Leetcode</a></li>
+            </ul>
+        </main>
+
+
+    </div> 
+
+
+    <div id="withoutjs">
+        <div id="whatsapplogo">
+            <a href="https://wa.me/918620862136"><img src="./assets/whatsapp.webp" alt="Whatsapp Logo"></a>
+        </div>
+        <main id="under">
+            <div class="left-side-main">
+                <div class="upper">
+                    <div class="red"><h2>My&nbsp;</h2></div>
+                    <div class="grey"><h2>name is</h2></div>
+                </div>
+                <div class="white"><h1>Sonu Mondal</h1></div>
+                <div class="lower">
+                    <div class="grey"><h2>and I am a&nbsp;</h2></div>
+                <div class="red"><h2>Deve</h2></div>
+                <div class="grey"><h2>loper</h2></div>
+                </div>
+                <div class="para">
+                    <p>A web developer and continuous learner, who rapidly adapts <br>
+                    to change, is keen to learn and works well within a team or <br>
+                    using own initiative</p>
+                </div>
+            </div>
+    
+            <div class="right-side-main">
+                <img src="./assets/profilephoto.jpg" alt="Profile photo">
+            </div>
+        </main>
+        <section>
+            <div class="socialImg">
+                <a href="https://www.linkedin.com/in/sonu-mondal-2380981a7/"><img src="./assets/linkedin-01.png" alt=""></a>
+            </div>
+            <div class="socialImg">
+                <a href="https://github.com/sonu2027"><img src="./assets/github.png" alt=""></a>
+            </div>
+            <div class="socialImg">
+                <a href="https://www.facebook.com/sonu.mandal.9883/"><img src="./assets/facebook-02.png" alt=""></a>
+            </div>
+            <div class="socialImg">
+                <a href="https://www.instagram.com/so__nu2027/"><img src="./assets/instagram-02.png" alt=""></a>
+            </div>
+            <div class="socialImg">
+                <a href="https://twitter.com/So_nu2027"><img src="./assets/twitter-02.png" alt=""></a>
+            </div>
+        </section>
+        <div id="downloadResume">
+            <a href="./assets/Resumeat75px.pdf"><button>Resume &darr;</button></a>
+        </div>
+        <h1 id="skillandabilities">Skills and Abilities</h1>
+        <div id="skill">
+
+            <div class="skillbox">
+                <img src="./assets/cpp.png" alt="C++ Icon">
+                <p>C++</p>
+            </div>
+
+            <div class="skillbox">
+                <img style="width:12vw" src="./assets/oops.png" alt="OOPs Icon">
+                <p >OOPs</p>
+            </div>
+
+            <div class="skillbox">
+                <img style="width:9vw" src="./assets/dsa.png" alt="DSA Icon">
+                <p >DSA</p>
+            </div>
+
+            <div class="skillbox">
+                <img style="width:7vw" src="./assets/html.webp" alt="HTML Icon">
+                <p >HTML5</p>
+            </div>
+
+            <div class="skillbox">
+                <img src="./assets/css.png" alt="CSS Icon">
+                <p >CSS3</p>
+            </div>
+
+            <div class="skillbox">
+                <img style="width:8vw" src="./assets/js.png" alt="JS Icon">
+                <p >JavaScript</p>
+            </div>
+
+            <div class="skillbox">
+                <img src="./assets/sql.png" alt="SQL Icon">
+                <p >SQL</p>
+            </div>
+
+            <div class="skillbox">
+                <img style="width:10vw" src="./assets/talwind.png" alt="Talwind CSS Icon">
+                <p >Talwind</p>
+            </div>
+
+            <div class="skillbox">
+                <img style="width:10vw" src="./assets/git.png" alt="GIT Icon">
+                <p >GIT</p>
+            </div>
+
+            <div class="skillbox">
+                <img src="./assets/linux.png" alt="Linux icon">
+                <p >Linux(Unix)</p>
+            </div>
+
+        </div>
+        <div class="sonu">
+            <p>What I do</p>
+        </div>
+        <div class="card">
+            <div class="box">
+                <img src="./assets/development.jpg" alt="">
+                <h1>Web <br> Development</h1>
+                <p>I am a full starck Web develoepr. (HTML, CSS, Javascript, Node.js, MongoDB) I have done so many projects like e-commerce website, Food delievery Website, Portfolio website</p>
+            </div>
+            <div class="box">
+                <img src="./assets/programming.jpg" alt="">
+                <h1>Competitive programming</h1>
+                <p>I enjoy participating in competitive programming competitions where I solve algorithmic problems under time constraints. It's a great way to improve my programming skills, learn new techniques and algorithms, and challenge myself to solve complex problems efficiently. </p>
+            </div>
+            <div class="box">
+                <img src="./assets/freelancing.jpg" alt="">
+                <h1>Freelancing</h1>
+                <p>I provide professional services to clients across a range of industries. I work independently, setting my own schedule and managing my workload to ensure I deliver high-quality work on time. Freelancing allows me to work on a variety of interesting projects, build my skills and experience, and develop relationships with clients and other professionals in my field.</p>
+            </div>
+        </div>
+        <div class="qualification">
+            <p>Qualification</p>
+        </div>
+        <div class="card2">
+            <div class="box2">
+                <img src="./assets/collegedegree.png" alt="">
+                <h1 class="degree">--B.tech, CSE (Bachelor of technology, CSE)</h1>
+                <h2 class="college">Narula institute of technology, Agarpara (Kolkata)</h2>
+                <p class="batch">Batch: 2021-2025</p>
+                <p class="university">MAKAUT (Maulana abul kalam azad university of technology)</p>
+                <p class="grade">CGPA: 7.8</p>
+                <div class="button">
+                    <button> <a href="./assets/First year result.pdf">Download certificate &darr;</a></button>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="./assets/highersecondary.png" alt="">
+                <h1 class="degree">--12th Board</h1>
+                <h2 class="college">Alipore takshal vidyapith</h2>
+                <p class="batch">Batch: 2019-2021</p>
+                <p class="university">WBBSE (West bengal council of higher secondary education)</p>
+                <p class="grade">Percentage: 73%</p>
+                <div class="button">
+                    <button> Download certificate &darr;</button>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="./assets/secondary.jpg" alt="">
+                <h1 class="degree">--10th Board</h1>
+                <h2 class="college">Alipore takshal vidyapith</h2>
+                <p class="batch">Batch: 2019</p>
+                <p class="university">WBBSE (West bengal board of secondary education)</p>
+                <p class="grade">Percentage: 71%</p>
+                <div class="button">
+                    <button>Download certificate &darr;</button>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <p>My awesome projects</p>
+        </div>
+        <div id="project">
+            <div class="box">
+                <p class="title">Headphone and earphone website</p>
+                <img src="./assets/beats.png" alt="">
+                <p class="description">Our website is a professional and easy-to-use platform that specializes in selling top-quality headphones and earphones. Designed with HTML and CSS</p>
+                <div class="button">
+                    <a href="https://sonuproj10.netlify.app/"><button>Go to my website</button></a>
+                </div>
+            </div>
+            <div class="box">
+                <p class="title">Real estate selling website</p>
+                <img src="./assets/realestate.png" alt="">
+                <p class="description">"Our real estate selling website is a modern and intuitive platform designed with HTML and CSS to make it easy for customers to find their dream home. Our website offers a comprehensive selection of properties, including houses, apartments, and condos in various locations</p>
+                <div class="button">
+                    <a href="https://sonuproj11.netlify.app/"><button>Go to my website</button></a>
+                </div>
+            </div>
+            <div class="box">
+                <p class="title">Health care solution</p>
+                <img src="./assets/healthcare.png" alt="">
+                <p class="description">Our health care solution website is a modern and innovative platform designed with HTML and CSS to provide a comprehensive range of healthcare solutions for patients and healthcare providers</p>
+                <div class="button">
+                    <a href="https://sonuproj12.netlify.app/"><button>Go to my website</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="proj-butt">
+            <button onclick="showproject()" >See more</button>
+        </div>
+        <div id="form">
+            <form action="mailto:sonu.mondal.2027@gmail.com" method="post">
+                <h1>GET IN TOUCH</h1>
+                <div class="box">
+                    <label for="user_name">Name:</label>
+                    <input name="u_name" type="text" id="user_name" placeholder="Enter your name">
+                </div>
+                <div class="box">
+                    <label for="user_name">Phone:</label>
+                    <input name="u_name" type="text" id="user_name" placeholder="Enter your phone number">
+                </div>
+                <div class="box">
+                    <label for="user_email">Email:</label>
+                    <input name="u_email" type="email" id="user_email" placeholder="Enter your email">
+                </div>
+                <div class="box">
+                    <label for="user_query">Query:</label>
+                    <textarea name="u_query" placeholder="Write your query" name="" id="user_query" cols="30" rows="10"></textarea>
+                </div>
+                <div class="button">
+                    <button value="submit" >Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <p>Copyright @codewithsonu. All right reserved.</p>
+            <p>Designed and developed by Sonu Mondal</p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

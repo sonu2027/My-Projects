@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 2%;
+}
+p{
+    font-size: 1.2rem;
+    color: #fff;
+}
+body{
+    background-color: rgb(34, 61, 142); 
+}
+#container{
+    color: #fff;
+    padding: 14vh 6% 12% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    background-color: rgb(37, 37, 77);
+    padding: 6% 12%;
+    border-radius: 1rem;
+    text-align: center;
+}
+#item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10, #results{
+    display: none;
+} 
+.submitbutton{
+    width: 15rem;
+    padding: 4%;
+    background-color:rgb(51, 243, 243);
+}
+select{
+    width: 15rem;
+    padding: 4% 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+#status{
+    border: 1px solid red;
+    margin-top: 4vh ;
+    padding: 1% 1%;
+    text-align: center;
+    width: 12rem;
+    background-color: red;
+    border-radius: 1rem;
+}
+
+
+#score{
+    padding: 4% 0%;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: rgb(6, 244, 244);
+    color: rgb(51, 51, 210);
+    font-weight: 550;
+}
+#finalresult{
+    text-align: center;
+    padding: 1rem 2.5rem;
+    border: 4px solid #fff;
+    margin-top: 0;
+    font-weight: 550;
+}
+#upper p{
+    margin-top: 1rem;
+    font-weight: 550;
+}
+#lower p{
+    margin-top: 2rem;
+    font-weight: 550;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding: 6px 0 6px 0;
+}
+footer img{
+    width: 1.3rem;
+}
+footer p{
+    font-size: 1.2rem;
+}

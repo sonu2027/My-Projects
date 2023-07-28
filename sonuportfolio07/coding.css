@@ -1,0 +1,31 @@
+#codingprofile {
+  height: 60vh;
+}
+#codingprofile ul li a {
+  color: rgb(34, 157, 34);
+  font-size: 3rem;
+  text-decoration: none;
+}
+#codingprofile ul li:hover {
+  background-color: #fff;
+  color: rgb(16, 16, 37);
+}
+#codingprofile ul li a:hover {
+  background-color: #fff;
+  color: rgb(16, 16, 37);
+}
+#codingprofile ul li {
+  background-color: rgb(16, 16, 37);
+  list-style: none;
+  padding: 2rem 4rem;
+  border-radius: 4px;
+  margin: 1rem;
+}
+#codingprofile ul {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
