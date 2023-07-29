@@ -5,7 +5,8 @@
   align-items: center;
 }
 #projectlink ul li {
-  background-color: rgb(16, 16, 37);
+  box-shadow: 0 0 0.8rem black;
+  background-color: rgb(18, 18, 43);
   list-style: none;
   text-align: center;
   padding: 2rem;
