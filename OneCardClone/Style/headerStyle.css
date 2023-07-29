@@ -3,7 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 } 
-#menu{
+#menubar{
     display: none;
 }
 body{
@@ -54,6 +54,9 @@ img{
     height: 40px;
     width: 69px;
 }
+#menubar li{
+    font-size: 1.4rem;
+}
 
 @media screen and (max-width:991px){
     .navbar ul{
@@ -62,7 +65,7 @@ img{
     html{
         font-size: 80%;
     }
-    #menu{
+    #menubar{
         display: block;
         display: flex;
         justify-content: center;
@@ -70,14 +73,6 @@ img{
     }
     .header{
         column-gap: 19rem;
-    }
-}
-@media screen and (max-width:767px){
-    html{
-        font-size: 75%;
-    }
-    .header{
-        column-gap: 1rem;
     }
     #menuItem{
         display: flex;
@@ -89,5 +84,13 @@ img{
         position: fixed;
         width: 100%;
         padding: 2rem 0;
+    }
+}
+@media screen and (max-width:767px){
+    html{
+        font-size: 75%;
+    }
+    .header{
+        column-gap: 1rem;
     }
 }
