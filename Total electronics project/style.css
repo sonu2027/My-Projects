@@ -2,26 +2,35 @@
     margin: 0;
     padding: 0;
 }
-html{
-    font-size: 62.5%;
+body{
+    font-family: sans-serif;
+}
+.bar{
+    display: none;
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: 0 0 2px black;
     position: sticky;
     top: 0px;
+    padding: 1rem 3rem 1rem 3rem;
     background-color: #fff;
 }
 .navbar #navbarKaA{
     text-decoration: none;
-    font-size: 2.5rem;
-    margin-right: 25rem;
-    margin-top: 1rem;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
 }
 .navbar ul li {
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .navbar ul li a{
     text-decoration: none;
@@ -31,38 +40,34 @@ html{
     text-decoration: underline;
     text-decoration-color: rgb(32, 46, 90);
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 1px solid red; */
-    width: 30rem;
-    height: 5rem;
-    margin-right : 20rem;
-}
 .main{
     margin-top: 4rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1rem 4rem 1rem 4rem;
 }
 .main img{
-    height: 30rem;
-    width: 50rem;
+    height: 25vw;
+    width: 35rem;
     border-radius: 2px;
 }
 .main p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 .main h1{
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 .card{
+    margin-top: 4rem;
     display: flex;
-    column-gap: 5rem;
-    margin-left: 10rem;
-    margin-top: 5rem;
+    padding: 1rem 4rem 1rem 4rem;
+    justify-content: space-between;
+}
+.card iframe{
+    height: 22vw;
+    width: 45%;
 }
 .footer{
     margin-top: 5rem;
@@ -74,49 +79,79 @@ ul{
     box-shadow: 0 0 4px black;
 }
 .footer p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 1000px;
 }  
-
-@media screen and (min-width:200px) and (max-width: 480px){
+@media screen and (max-width: 1080px){
     html{
-        font-size: 40%;
+        font-size: 90%;
     }
-    .navbar #navbarKaA{
-        text-decoration: none;
-        font-size: 2.3rem;
-        margin-right: 0rem;
-        margin-top: 1rem;
+}
+@media screen and (max-width: 992px){
+    html{
+        font-size: 80%;
     }
-    ul{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* border: 1px solid red; */
-        width: 25rem;
-        height: 5rem;
-        margin-right : 0rem;
+}
+@media screen and (max-width: 900px){
+    html{
+        font-size: 70%;
     }
-    .main img{
-        margin-top: 0rem;
-        height: 21rem;
-        width: 25rem;
-        border-radius: 2px;
+}
+@media screen and (max-width: 800px){
+    html{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 725px){
+    html{
+        font-size: 70%;
     }
     .main{
-        margin: 3rem 2rem 0 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
     }
-    .footer{
-        margin-right: 0rem;
+    .bar{
+        display: block;
     }
-    .card{
+    .bar li{
+        list-style: none;
+        font-size: 1.8rem;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .main img{
+        height: 38vw;
+        width: 30rem;
+        border-radius: 2px;
+    }
+    #menubar{
         display: flex;
         flex-direction: column;
-        row-gap: 5rem;
-        margin-left: 6rem;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        row-gap: 3rem;
+        padding: 2rem 0;
+        margin-top: 1px;
+    }
+    #menubar li{
+        font-size: 1.3rem;
+        font-weight: 550;
+    }
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+        padding: 0 6rem;
     }
     .card iframe{
-        height: 20rem;
-        width: 43rem;
+        height: 28vw;
+        width: 30rem;
     }
 }

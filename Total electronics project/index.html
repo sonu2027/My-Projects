@@ -1,46 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All about electronics</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/fd689afc01.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="navbar">
-        <a id="navbarKaA" href="./index.html">totalElectronicsProjects</a>
-        <ul>
-            <li> <a href="">Home</a></li>
-            <li> <a href="./Blog/index.html">Blog</a></li>
-            <li> <a href="">About</a></li>
-            <li> <a href="">Contact</a></li>
-        </ul>
+      <div class="bar">
+        <li id="cap" onclick="showbar()"><i class="fa-solid fa-bars"></i></li>
+      </div>
+      <a id="navbarKaA" href="./index.html">totalElectronicsProjects</a>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="./Blog/index.html">Blog</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
     </div>
+    <ul id="menubar">
+
+    </ul>
     <div class="main">
-        <div class="para">
-            <h1>Welcome to <br> Total electronics project <br> learn about electronics </h1>
-        <p>Total Electronics Projects is a YouTube channel  <br>
-           dedicated to showcasing innovative and exciting <br>
-           electronic projects. From DIY electronics to  <br>
-           circuit designs, the channel provides step-by-step  <br>
-           tutorials, insightful demonstrations, and creative ideas <br>
-            for electronics enthusiasts. Whether you're a beginner or <br>
-             an experienced hobbyist, Total Electronics Projects offers <br>
-              inspiration and knowledge to help you explore and create your <br>
-               own electronic gadgets. Join the channel to discover the fascinating <br>
-                world of electronics and bring your ideas to life.</p>
-        </div>
-        <div class="img">
-            <img src="./Assets/circuit.jpg" alt="Circuit Image">
-        </div>
+      <div class="para">
+        <h1>
+          Welcome to <br />
+          Total electronics project <br />
+          learn about electronics
+        </h1>
+        <p>
+          Total Electronics Projects is a YouTube channel <br />
+          dedicated to showcasing innovative and exciting <br />
+          electronic projects. From DIY electronics to <br />
+          circuit designs, the channel provides step-by-step <br />
+          tutorials, insightful demonstrations, and creative ideas <br />
+          for electronics enthusiasts. Whether you're a beginner or <br />
+          an experienced hobbyist, Total Electronics Projects offers <br />
+          inspiration and knowledge to help you explore and create your <br />
+          own electronic gadgets. Join the channel to discover the fascinating
+          <br />
+          world of electronics and bring your ideas to life.
+        </p>
+      </div>
+      <div class="img">
+        <img src="./Assets/circuit.jpg" alt="Circuit Image" />
+      </div>
     </div>
     <div class="card">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cTIkfEsccVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nD8mn1rbs-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/cTIkfEsccVk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/nD8mn1rbs-A"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </div>
     <div class="footer">
-        <p>copyright@totalelectronicsproject.com</p>
-        <p>Designed and developed by Sonu Mondal B.tech, CSE</p>
+      <p>copyright@totalelectronicsproject.com</p>
+      <p>Designed and developed by Sonu Mondal B.tech, CSE</p>
     </div>
-</body>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
