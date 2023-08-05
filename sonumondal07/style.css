@@ -1,0 +1,733 @@
+@media screen and (max-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+  }
+  html {
+    font-size: 62.5%;
+    background-color: #0f0f10;
+    width: 100%;
+  }
+  nav {
+    background-color: #0f0f10;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20%;
+    align-items: center;
+    box-shadow: 0 0 5px #bc8f8f;
+    position: sticky;
+    top: 0px;
+    padding: 1rem 0;
+  }
+  nav ul li {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #f0f8ff;
+    list-style: none;
+  }
+  .portfolio {
+    display: flex;
+  }
+  .portfolio h1 {
+    font-size: 5rem;
+  }
+  nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .port {
+    color: #f0f8ff;
+    animation-name: para1colorchange;
+    animation-duration: 12s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  .folio {
+    color: rgb(2, 148, 2);
+    animation-name: para2colorchange;
+    animation-duration: 12s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  .bar {
+    display: none;
+  }
+  nav ul li:hover {
+    color: rgb(3, 129, 3);
+    cursor: pointer;
+  }
+
+  /* Skill */
+  .skillbox {
+    background-color: rgb(2, 4, 10);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    border-radius: 0.8rem;
+  }
+  .skillbox img {
+    width: 5vw;
+  }
+  .skillbox p {
+    font-size: 3vw;
+    color: #fff;
+  }
+  #skill {
+    background-color: rgb(17, 17, 38);
+    margin: 0 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem 2rem;
+    padding: 2%;
+    border-radius: 0.8rem;
+  }
+  #skillandabilities {
+    color: #fff;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    font-size: 4vw;
+  }
+
+  /* Main */
+  #under {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6% 4%;
+  }
+  #under .upper {
+    display: flex;
+  }
+  #under .lower {
+    display: flex;
+  }
+  .red {
+    color: #ff0000;
+    font-size: 270%;
+    animation-name: colorchange;
+    animation-duration: 12s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  .grey {
+    color: #808080;
+    font-size: 270%;
+  }
+  .white {
+    color: #f5f5f5;
+    font-size: 400%;
+    animation-name: sonumondal;
+    animation-duration: 12s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  #under .right-side-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #under .right-side-main img {
+    height: 75%;
+    width: 65%;
+    box-shadow: 0 0 1rem black;
+    border-radius: 1.5rem;
+  }
+  .para {
+    color: wheat;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin-top: 1rem;
+  }
+
+  /* Section */
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+  }
+  .socialImg img {
+    width: 4vw;
+  }
+
+  /* Button */
+  #downloadResume {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  #downloadResume {
+    height: 10vw;
+  }
+  #downloadResume button {
+    background-color: rgba(35, 57, 123, 0.787);
+    color: white;
+    font-size: 2.4rem;
+    padding: 1.4rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  #downloadResume button:hover {
+    background-color: #fff;
+    color: rgba(35, 57, 123, 0.787);
+    border: 2px solid rgba(35, 57, 123, 0.787);
+    font-size: 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* Card */
+  .sonu p {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  .card {
+    display: flex;
+    column-gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 0 2%;
+  }
+
+  .card .box {
+    /* background-color: rgb(17, 17, 38); */
+    background-color: #1f1f21;
+    border-radius: 8px;
+    box-shadow: 0 0 1rem rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0 6% 0;
+  }
+  .card .box img {
+    height: 29vh;
+    width: 24vw;
+    margin: 1vh 0 0 0.5vw;
+    border-radius: 5px;
+  }
+  .card .box h1 {
+    /* color: greenyellow; */
+    /* color: rgb(63, 110, 253); */
+    color: rgb(30, 213, 30);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .card .box p {
+    color: rgb(166, 165, 165);
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+
+  /* card2 */
+  .qualification p {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    margin-top: 15rem;
+  }
+  .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5rem;
+    margin-top: 5rem;
+  }
+  .card2 .box2 {
+    width: 90%;
+    /* background-color: rgb(17, 17, 38);  */
+    background-color: #1f1f21;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.8rem;
+    box-shadow: 0 0 1rem black;
+    padding: 4% 2% 4% 2%;
+  }
+  .card2 .box2 img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 8px;
+    margin-left: 3rem;
+  }
+  .degree {
+    color: greenyellow;
+    font-size: 3rem;
+    margin-left: 3rem;
+  }
+  .college {
+    color: wheat;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+  }
+  .batch {
+    color: white;
+    font-size: 2.2rem;
+    margin-left: 3rem;
+  }
+  .university {
+    color: white;
+    font-size: 2.2rem;
+    margin-left: 3rem;
+  }
+  .grade {
+    color: white;
+    font-size: 2.2rem;
+    margin-left: 3rem;
+  }
+  .card2 .box2 .button {
+    height: 8rem;
+    width: 30rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  .card2 .box2 .button button a {
+    text-decoration: none;
+    color: white;
+  }
+  .card2 .box2 .button button {
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(13, 116, 13);
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+  }
+  .card2 .box2 .button button:hover {
+    color: black;
+    background-color: #fff;
+    border: 1px solid rgb(8, 142, 8);
+    cursor: pointer;
+  }
+
+  /* Projects */
+  .project p {
+    font-size: 5vw;
+    color: white;
+    margin-top: 15rem;
+    text-align: center;
+  }
+  #project {
+    display: flex;
+    column-gap: 3rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+  }
+  #project .box {
+    box-shadow: 0 0 1rem black;
+    background-color: #1f1f21;
+    /* background-color: rgb(17, 17, 38); */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.5rem;
+    padding: 1% 1% 6% 1%;
+  }
+  #project .box .title {
+    font-size: 2.2rem;
+    color: white;
+    color: rgb(2, 148, 2);
+    margin-top: 2rem;
+  }
+  #project .box .description {
+    font-size: 1.5rem;
+    color: rgb(125, 125, 125);
+    text-align: center;
+  }
+  #project .box .button button {
+    padding: 1rem 8rem;
+    background-color: rgb(2, 148, 2);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+  }
+  #project .box .button button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 148, 2);
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(2, 148, 2);
+  }
+  #project .box img {
+    width: 96%;
+    border-radius: 8px;
+  }
+  .proj-butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .proj-butt button {
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: rgba(35, 57, 123, 0.787);
+    border: none;
+    color: white;
+    font-weight: 550;
+  }
+  .proj-butt button:hover {
+    background-color: #fff;
+    color: rgba(35, 57, 123, 0.787);
+    cursor: pointer;
+  }
+  form h1 {
+    color: rgb(13, 116, 13);
+    font-size: 2vw;
+    text-align: center;
+  }
+  #form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    padding: 4% 1%;
+    background-color: #1f1f21;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    justify-content: space-around;
+    box-shadow: 0 0 1rem black;
+    border-radius: 10px;
+    row-gap: 4vw;
+  }
+  form .box {
+    display: flex;
+    /* flex-direction: column; */
+    column-gap: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+  input,
+  textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 3.5vw;
+    border-radius: 0.5rem;
+    font-size: 2vw;
+    /* margin-left: 5%; */
+    border: none;
+    background-color: rgb(244, 221, 179);
+  }
+  textarea {
+    border: transparent;
+    /* resize: none; */
+  }
+  label {
+    font-size: 1.8vw;
+    font-weight: 600;
+    /* color: rgb(206, 206, 206); */
+    color: rgb(13, 116, 13);
+    /* margin-left: 5%; */
+  }
+  form .button {
+    height: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form .button button {
+    padding: 2% 14%;
+    font-size: 1.6vw;
+    color: white;
+    background-color: rgb(15, 109, 15);
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+  }
+  form .button button:hover {
+    background-color: wheat;
+    color: rgb(13, 116, 13);
+    border: 1px solid rgb(13, 116, 13);
+    cursor: pointer;
+  }
+
+  /* footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.8vw;
+    color: rgb(156, 156, 156);
+    margin-top: 15vh;
+    line-height: 2.8rem;
+    background-color: #1f1f21;
+    box-shadow: 0 0 2px rosybrown;
+  }
+  #hamberger #contacts {
+    display: none;
+  }
+  #hamberger #projectlink {
+    display: none;
+  }
+  #hamberger #codingprofile {
+    display: none;
+  }
+  #bar2 {
+    display: none;
+  }
+  #resumes:hover {
+    color: rgb(2, 148, 2);
+  }
+  #whatsapp {
+    padding: 1%;
+  }
+  #whatsapplogo img {
+    padding: 1%;
+    width: 6.5vw;
+    position: fixed;
+    left: 92vw;
+    top: 87vh;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  html {
+    font-size: 50%;
+  }
+  .socialImg img {
+    width: 6vw;
+  }
+  form h1 {
+    font-size: 2.8vw;
+  }
+  form .button button {
+    font-size: 2.5vw;
+  }
+  label {
+    font-size: 3vw;
+  }
+  footer {
+    font-size: 2.2vw;
+  }
+  .skillbox p {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  #whatsapplogo img {
+    padding: 0 1% 0 0;
+    width: 8vw;
+    left: 89vw;
+    top: 91vh;
+  }
+  #bar2 img {
+    width: 5rem;
+    position: absolute;
+    left: 2.7rem;
+    bottom: 26%;
+  }
+  #hambergermenu li {
+    color: #fff;
+    font-size: 3rem;
+    height: 15vh;
+    margin-top: 3rem;
+  }
+  #hambergermenu li a {
+    color: #fff;
+    font-size: 3rem;
+  }
+  html {
+    font-size: 50%;
+    /* background-color: #0f0f10; */
+    width: 100%;
+  }
+  nav {
+    height: 9rem;
+  }
+  li {
+    list-style: none;
+  }
+  .portfolio {
+    position: absolute;
+    right: 2rem;
+    display: flex;
+    font-size: 4rem;
+  }
+  */ .portfolio h1 {
+    font-size: 5rem;
+  }
+  nav ul {
+    display: none;
+  }
+  .bar {
+    display: block;
+    position: absolute;
+    left: 4rem;
+  }
+  .bar li {
+    font-size: 3.5rem;
+    color: #fff;
+  }
+
+  /* Main */
+  #under {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 8%;
+  }
+
+  #under .left-side-main .upper {
+    display: flex;
+  }
+  .right-side-main img {
+    height: 80%;
+    width: 75%;
+    border-radius: 2rem;
+  }
+  .right-side-main {
+    padding: 8%;
+  }
+  .socialImg img {
+    width: 8vw;
+  }
+  #project {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+  }
+  .card {
+    flex-direction: column;
+    row-gap: 5rem;
+  }
+  .card .box {
+    width: 80%;
+  }
+  .card .box img {
+    width: 96%;
+  }
+  #project .box {
+    width: 80%;
+  }
+  .project p {
+    font-size: 7vw;
+  }
+  label {
+    font-size: 5vw;
+  }
+  form {
+    width: 80%;
+    padding: 8% 3%;
+  }
+  form h1 {
+    font-size: 5.5vw;
+  }
+  form .button button {
+    font-size: 5vw;
+  }
+  input,
+  textarea {
+    width: 60%;
+    height: 6vw;
+  }
+  footer {
+    font-size: 3.5vw;
+  }
+
+  /* Skill */
+  .skillbox {
+    padding: 12%;
+  }
+  #skill {
+    margin: 0 6%;
+  }
+  #skillandabilities {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #whatsapplogo img {
+    padding: 0 1% 0 0;
+    width: 11vw;
+    left: 89vw;
+    top: 92vh;
+  }
+  #skill {
+    grid-template-columns: 1fr 1fr;
+  }
+  .skillbox img {
+    width: 14vw;
+  }
+  .skillbox p {
+    font-size: 5vw;
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    color: rgb(222, 18, 18);
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: rgb(222, 18, 18);
+  }
+}
+@keyframes sonumondal {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: rgb(222, 18, 18);
+  }
+  100% {
+    color: #fff;
+  }
+}
+
+@keyframes para1colorchange {
+  0% {
+    color: rgb(36, 255, 36);
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: rgb(36, 255, 36);
+  }
+}
+
+@keyframes para2colorchange {
+  0% {
+    color: rgb(222, 18, 18);
+  }
+  50% {
+    color: rgb(36, 255, 36);
+  }
+  100% {
+    color: rgb(222, 18, 18);
+  }
+}

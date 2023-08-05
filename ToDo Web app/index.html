@@ -1,0 +1,52 @@
+<!-- <aside>
+💡 **Q.8** Create a Simple Todo Web App with following features :
+
+- An input button where users can type their tasks.
+- On clicking the submit button, the entered task should be displayed in the UI.
+- The UI layout should resemble the image provided.
+</aside> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do Web App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Todos</h1>
+      <div id="inputbutton">
+        <input type="text" placeholder="Enter your task" />
+        <button>Add Todo</button>
+      </div>
+    </header>
+
+    <div id="container">
+        <main>
+            <p style="text-align: center; line-height:2rem">Task</p>
+            <p style="text-align: center; line-height:3rem">Status: Pending</p>
+            <div class="button">
+              <button>Remove</button>
+              <button id="markbutton">
+                Mark Completed
+              </button>
+              <button>Edit Task</button>
+            </div>
+          </main>
+      
+          <div id="update">
+              <div id="input">
+                  <input value="" placeholder="Enter your task" type="text">
+              </div>
+              <div class="button">
+                  <button>Update</button>
+                  <button>Close</button>
+              </div>
+          </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

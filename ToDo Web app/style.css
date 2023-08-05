@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(58, 95, 208);
+    font-family: sans-serif;
+}
+#inputbutton{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+header h1{
+    text-align: center;
+    line-height: 5rem;
+    color: #fff;
+}
+#inputbutton input{
+    padding: 1% 2%;
+    border-radius: 1rem;
+    border: 1px solid rgb(58, 95, 208);
+}
+#inputbutton button{
+    padding: 1% 2%;
+    border-radius: 1rem;
+    border: 1px solid rgb(58, 95, 208);
+    background-color: rgb(201, 33, 201);
+    color: #fff;
+}
+#inputbutton button:hover{
+    cursor: pointer;
+}
+
+
+/* main */
+main{
+    background-color: rgb(5, 5, 45);
+    color: white;
+    font-size: 1.1rem;
+    width: 20rem;
+    padding:2rem 2rem 2rem 4rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.button button{
+    font-size: 1.2rem;
+    width: 16rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(5, 5, 45);
+}
+.button button:hover{
+    cursor: pointer;
+}
+#markbutton{
+    background-color: rgb(50, 238, 50); 
+    color: #fff;
+}
+#markbutton:hover{
+    background-color: #fff;
+    color: rgb(5, 5, 45);
+}
+
+/* Footer */
+#update{
+    width: 18rem;
+    background-color: rgb(210, 35, 210);
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    height: 10rem;
+}
+#update .button{
+    flex-direction: row;
+    column-gap: 1rem;
+}
+#update #input input{
+    padding: 3% 3%;
+    border-radius: 1rem;
+    border: 1px solid rgb(58, 95, 208);
+
+}
+#update #input{
+    text-align: center;
+    margin: 1rem 0;
+}
+#container{
+    display: flex;
+    align-items: center;
+}
+#update{
+    display: none;
+}
+
+
+@media screen and (max-width:870px){
+    html{
+        font-size: 85%;
+    }
+}
+@media screen and (max-width:750px){
+    html{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 75%;
+    }
+}
+@media screen and (max-width:650px){
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width:600px){
+    html{
+        font-size: 70%;
+    }
+    #container{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
+@media screen and (max-width:320px){
+    html{
+        font-size: 60%;
+    }
+}
