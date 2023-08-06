@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by Sonu Mondal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input id="inputTag" type="text" value="0">
+        <hr>
+        <div id="item1" class="item">
+            <p onclick="c()" id="upperOperator">AC</p>
+            <p onclick="ce()" id="upperOperator">CE</p>
+            <p onclick="operation('%')" id="upperOperator">%</p>
+            <p id="divide" onclick="operation('/')" class="operator">/</p>
+        </div>
+        <div class="item">
+            <p onclick="enterNum(7)">7</p>
+            <p onclick="enterNum(8)">8</p>
+            <p onclick="enterNum(9)">9</p>
+            <p id="multiply" onclick="operation('x')" class="operator">x</p>
+        </div>
+        <div class="item">
+            <p onclick="enterNum(4)">4</p>
+            <p onclick="enterNum(5)">5</p>
+            <p onclick="enterNum(6)">6</p>
+            <p onclick="operation('-')" class="operator">-</p>
+        </div>
+        <div class="item">
+            <p onclick="enterNum(1)">1</p>
+            <p onclick="enterNum(2)">2</p>
+            <p onclick="enterNum(3)">3</p>
+            <p id="sum" onclick="operation('+')" class="operator">+</p>
+        </div>
+        <div id="item4" class="item">
+            <p onclick="enterNum(0)">0</p>
+            <p onclick="dot()">.</p>
+            <p id="power" class="operator" onclick="operation('^')">x <sup>y</sup></p>
+            <p onclick="ans()" id="equalto">=</p>
+        </div>
+        <div class="container">
+            <footer>
+              <span style="font-size: 2rem">Developed by &nbsp;</span>
+              <a href="https://www.linkedin.com/in/sonu-mondal-2380981a7/"
+                ><img style="width: 2rem" src="linkedinLogo.png" alt=""
+              /></a>
+            </footer>
+          </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
