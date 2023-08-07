@@ -1,0 +1,181 @@
+/* header */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    font-size: 75%;
+}
+#header{
+    text-align: center;
+    margin-top: 2%;
+}
+#header p{
+    line-height: 1.3rem;
+}
+#header h2{
+    line-height: 2.5rem;
+}
+ 
+.heading{
+    line-height: 2rem;
+}
+hr{
+    border: 1px solid rgb(47, 47, 47);
+    margin: 0 10% 0 0;
+    width: 99%;
+}
+
+/* main */
+
+main{
+    margin: 0 10% 0 9%;
+    line-height: 1.5rem;
+}
+span{
+    color: rgb(177, 35, 35);
+}
+#collegename{
+    display: flex;
+}
+#collegedtls{
+    display: flex;
+    justify-content: space-between;
+}
+#cgpa{
+    margin-right: 1%;
+}
+
+/* article */
+
+article{
+    /* margin: 3rem 10% 0 9%; */
+    margin: 2rem 10% 0 9%;
+    line-height: 1.5rem;
+}
+.landt{
+    display: flex;
+}
+
+
+#exp{
+    display: flex;
+    /* margin: 3rem 10% 0 9%; */
+    margin: 2rem 10% 0 9%;
+    line-height: 1.5rem;
+}
+#exp p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+/* section */
+section{
+    margin: 2rem 10% 0 9%;
+    line-height: 1.5rem;
+}
+.row{
+    display: flex;
+}
+
+/* footer */
+footer{
+    margin: 2rem 10% 0 9%;
+    line-height: 1.5rem;
+}
+#project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+@media screen and (max-width:900px){
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:800px){
+    html{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 75%;
+    }
+}
+@media screen and (max-width:600px){
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width:560px){
+    html{
+        font-size: 68%;
+    }
+}
+@media screen and (max-width:540px){
+    html{
+        font-size: 65%;
+    }
+}
+@media screen and (max-width:515px){
+    html{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width:475px){
+    html{
+        font-size: 57%;
+    }
+}
+@media screen and (max-width:450px){
+    html{
+        font-size: 53%;
+    }
+}
+@media screen and (max-width:425px){
+    html{
+        font-size: 51%;
+    }
+}
+@media screen and (max-width:400px){
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width:390px){
+    html{
+        font-size: 49%;
+    }
+}
+@media screen and (max-width:380px){
+    html{
+        font-size: 47%;
+    }
+}
+@media screen and (max-width:365px){
+    html{
+        font-size: 44%;
+    }
+}
+@media screen and (max-width:355px){
+    html{
+        font-size: 42%;
+    }
+}
+@media screen and (max-width:310px){
+    html{
+        font-size: 41%;
+    }
+}
+@media screen and (max-width:300px){
+    html{
+        font-size: 40%;
+    }
+}
