@@ -38,11 +38,16 @@ p{
 }
 p:hover{
     cursor: pointer;
+    color: rgb(253, 84, 23);
 }
 #equalto{
     background-color: rgb(253, 84, 23);
     padding: 0.8rem 1.4rem;
     border-radius: 10rem;
+}
+#equalto:hover{
+    color: rgb(22, 21, 21);
+    font-weight: 700;
 }
 .operator{
     font-size: 3rem;
