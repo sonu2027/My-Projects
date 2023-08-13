@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 html{
-    font-size: 75%;
+    font-size: 70%;
 }
 #header{
     text-align: center;
@@ -30,7 +30,7 @@ hr{
 /* main */
 
 main{
-    margin: 0 10% 0 9%;
+    margin: 0 6% 0 6%;
     line-height: 1.5rem;
 }
 span{
@@ -51,7 +51,7 @@ span{
 
 article{
     /* margin: 3rem 10% 0 9%; */
-    margin: 2rem 10% 0 9%;
+    margin: 1.8rem 6% 0 6%;
     line-height: 1.5rem;
 }
 .landt{
@@ -62,7 +62,7 @@ article{
 #exp{
     display: flex;
     /* margin: 3rem 10% 0 9%; */
-    margin: 2rem 10% 0 9%;
+    margin: 1.8rem 6% 0 6%;
     line-height: 1.5rem;
 }
 #exp p{
@@ -75,7 +75,7 @@ article{
 
 /* section */
 section{
-    margin: 2rem 10% 0 9%;
+    margin: 1.8rem 6% 0 6%;
     line-height: 1.5rem;
 }
 .row{
@@ -84,7 +84,7 @@ section{
 
 /* footer */
 footer{
-    margin: 2rem 10% 0 9%;
+    margin: 1rem 6% 0 6%;
     line-height: 1.5rem;
 }
 #project{
@@ -123,25 +123,25 @@ footer{
     html{
         font-size: 65%;
     }
-}
-@media screen and (max-width:515px){
+ }
+ @media screen and (max-width:515px){
     html{
-        font-size: 60%;
+        font-size: 62%;
     }
 }
-@media screen and (max-width:475px){
+ @media screen and (max-width:475px){
     html{
-        font-size: 57%;
+        font-size: 58%;
     }
 }
-@media screen and (max-width:450px){
+ @media screen and (max-width:450px){
     html{
-        font-size: 53%;
+        font-size: 55%;
     }
 }
-@media screen and (max-width:425px){
+ @media screen and (max-width:425px){
     html{
-        font-size: 51%;
+        font-size: 52%;
     }
 }
 @media screen and (max-width:400px){
