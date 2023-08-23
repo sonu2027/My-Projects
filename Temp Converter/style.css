@@ -1,59 +1,66 @@
-#container{
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: sans-serif;
+}
+body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    column-gap: 1rem;
-    margin-top: 2rem;
 }
-input{
-    padding: 1rem 2rem;
-    width: 15rem;
-    border-radius: 1rem;
-    border: 1px solid rgb(57, 104, 245);
-    background-color: rgb(198, 212, 253);
+#container{
+    background-color: rgb(208, 232, 223);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 20rem;
+    text-align: center;
+    border: 1px solid rgb(233, 29, 29);
+    height: 70vh;
+    border-radius: 5px;
+}
+#option p{
+    text-align: center;
+}
+#inputTag{
+    width: 12rem;
+    text-align: center;
+    padding: 5px 1px;
+    margin: 1rem 0;
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: rgb(184, 184, 230);
+}
+#option button{
+    margin-top: 5px;
 }
 button{
-    padding: 1% 2%;
-    width: 5rem;
-    height: 2rem;
-    font-size: 1.2rem;
-    border: 1px solid rgb(72, 116, 249);
+    background-color: #16BAC5;
+    border: 1px solid #16BAC5;
+    color: #fff;
+    padding: 4px 2px;
+    border-radius: 4px;
 }
 button:hover{
-   cursor: pointer;
+    background-color: #fff;
+    color: #16BAC5;
+    cursor: pointer;
 }
-#para{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#ans{
+    display: none;
+    border: 1px solid #16BAC5;
+    background-color: #16BAC5;
+    color: #fff;
+    text-align: center;
+    width: 10rem;
+    border-radius: 4px;
+    padding: 4px 2px;
+    margin-top: 1rem;
 }
-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(51, 237, 110);
-    background-color: rgb(51, 237, 110);
-    width: 25rem;
-    height: 3rem;
-    border-radius: 1rem;
-    font-size: 1.2rem;
-}
-span{
-    margin: 0 5px;
-}
-
-@media screen and (max-width:500px){
-    html{
-        font-size: 80%;
-    }
-}
-@media screen and (max-width:400px){
-    html{
-        font-size: 70%;
-    }
-}
-@media screen and (max-width:350px){
-    html{
-        font-size: 65%;
-    }
+#inputTag:focus{
+    outline: none;
 }

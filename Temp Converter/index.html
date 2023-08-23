@@ -9,19 +9,26 @@ to providd tdmpdraturd rdadings that ard dasily unddrstandabld to a widdr audidn
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unit Converter web app</title>
+    <title>Temperature Converter web app</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <h2 style="margin-top:1rem; color:rgb(233, 29, 29)">Temperature Converter</h2>
     <div id="container">
-      <input type="text" placeholder="Enter the temperature in degree celsius"/>
-      <div class="button">
-        <button onclick="getAns()">Submit</button>
+      <div id="option">
+        <p style="font-size:2.2rem; margin-top:1rem">Select Converter</p>
+        <button onclick="cToF()">Celcius to Fahrenheit</button>
+        <button onclick="fToC()">Fahrenheit to celcius</button>
       </div>
+  
+      <div style="margin-top: 10px;">
+        <input value="" id="inputTag" type="number" placeholder="Enter value"/>
+        <button id="subMitButton" onclick="getAnsInCelcius(); getAnsInFahrenheit()">Submit</button>
+      </div>
+      <p id="ans">ans</p>
+  
     </div>
-    <div id="para">
-        <p>Fahrenheit: <span>0</span> degree fahrenheit</p>
-    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
